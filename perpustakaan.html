@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Manajemen Buku</title>
+    <style>
+        /* Tambahkan gaya CSS di sini jika diperlukan */
+    </style>
+</head>
+<body>
+    <h1>Sistem Manajemen Buku</h1>
+
+    <form id="addBookForm">
+        <label for="judul">Judul Buku:</label>
+        <input type="text" id="judul" name="judul"><br><br>
+        <label for="penulis">Penulis:</label>
+        <input type="text" id="penulis" name="penulis"><br><br>
+        <label for="tahunTerbit">Tahun Terbit:</label>
+        <input type="number" id="tahunTerbit" name="tahunTerbit"><br><br>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre"><br><br>
+        <button type="submit">Tambah Buku</button>
+    </form>
+
+    <div id="daftarBuku"></div>
+
+    <script src="perpustakaan.js"></script>
+</body>
+</html>
